@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Test" parent="Theme.Material3.Light">
+
+        <item name="android:colorPrimary">
+            @color/kaspi_red
+        </item>
+
+        <item name="android:buttonStyle">
+            @color/kaspi_red
+        </item>
+
+        <item name="android:textColor">
+            @color/white
+        </item>
+
+        <item name="android:textColorHighlight">
+            @color/white
+        </item>
+
+        <item name="colorPrimaryContainer">
+            @color/kaspi_red
+        </item>
+    </style>
+
+    <style name="Theme.Test" parent="Base.Theme.Test" />
+</resources>
