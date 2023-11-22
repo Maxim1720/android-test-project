@@ -3,4 +3,6 @@
     <string name="back_btn_title">Назад</string>
     <string name="number_input_title">Введите номер автобуса</string>
     <string name="create_btn">Создать</string>
+    <string name="drive_price">80</string>
+    <string name="qr_page_title">Avtobys. Оплата проезда по ...</string>
 </resources>

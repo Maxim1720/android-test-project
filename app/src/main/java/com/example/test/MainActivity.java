@@ -16,13 +16,11 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-//        textInputEditText = findViewById(R.id.text_input);
+        textInputEditText = findViewById(R.id.numberInput);
     }
-
-    public void onFuck(View view){
-        Intent intent = new Intent(this, GreetingActivity.class);
-        intent.putExtra("username", textInputEditText.getText());
+    public void onClickCreate(View view){
+        Intent intent = new Intent(this, QrGeneratorActivity.class);
+        intent.putExtra("bus_number", textInputEditText.getText());
         startActivity(intent);
     }
 }

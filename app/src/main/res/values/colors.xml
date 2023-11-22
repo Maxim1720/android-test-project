@@ -3,4 +3,5 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="kaspi_red">#f14635</color>
+    <color name="kaspi_btn_color">#0089d0</color>
 </resources>
